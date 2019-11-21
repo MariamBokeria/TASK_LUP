@@ -1,0 +1,27 @@
+body {
+    background: rgb(235, 240, 235);
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.header, .start {
+    text-align: center;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row1, .row2, .row3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.box {
+    border: 2px solid grey;
+    padding: 40px;
+    text-align: center;
+}
